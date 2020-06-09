@@ -1,2 +1,2 @@
 # Demo-College
-This is a website of a demo college
+This is a demo website of a college
