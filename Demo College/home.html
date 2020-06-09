@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Demo College</title>
+
+
+    <!---- icon css file ---->
+    <link rel="stylesheet" href="./css/all.min.css">
+
+
+    <!----- custom css file ----->
+    <link rel="stylesheet" href="home.css">
+
+
+</head>
+<body onload="navbar()">
+
+    <div class="topnav">
+
+       <!----------------
+         navigation bar
+       ----------------->
+
+    <div class="nav_before"></div>
+      <div class="container_nav">
+            <div class="nav1_out"><div id="nav1" class="nav1">
+                <span class="h"><a class="home_logo" id="home"onclick="home()">logo</a></span>
+                <a class="link1" onclick="events()">events</a>
+                <a class="link1" onclick="notice()">notice</a>
+                <a class="link1" onclick="faculty()">faculty</a>
+                <a class="link1" onclick="alumni()">alumni</a>
+            </div></div>
+            <div id="nav2" class="nav2">
+                    <a class="link2" onclick="course()">courses</a>
+                    <a class="link2" onclick="campus()">campus life</a>
+                    <a class="link2" onclick="placement()">placement</a>
+                    <a class="link2" onclick="achiev()">achievments</a>
+                    <a class="link2" onclick="contact()">contact</a>
+                    <a class="link2" onclick="about()">about</a>
+            </div>
+          </div>
+
+          <!-----------------
+            heading of nimas 
+          ------------------->
+
+
+            <div class="heading">
+                <h2 class="h2"><span class="s">c</span>olleg<span class="s">e</span></h2>
+            </div>
+      
+      
+          <!-----------------
+             explore button 
+          ------------------->
+
+
+    <div class="explore" id="contain">
+        <span class="buttn" onclick="explore()"><i class="fas fa-angle-down"></i> explore college</span>
+    </div>
+  </div>
+    
+          <!-----------------
+            upcoming events 
+          ------------------->
+
+
+    <div class="events_container">
+            <div class="heading1">
+                    <h1 class="h">upcoming events</h1>
+           </div>
+                    <div class="container1">
+                      <div class="card">
+                        <div class="card-face1">
+                          <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                          </div>
+                        </div>
+                        <div class="card-face2">
+                          <h2>lorem ipsum</h2>
+                        </div>
+                      </div>
+                        <div class="card">
+                          <div class="card-face1">
+                            <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                          </div>
+                          <div class="card-face2">
+                            <h2>lorem ipsum</h2>
+                          </div>
+                        </div>
+                          <div class="card">
+                            <div class="card-face1">
+                              <div class="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+                            </div>
+                            <div class="card-face2">
+                              <div class="img">
+                              <h2>lorem ipsum</h2></div>
+                            </div>
+                          </div>
+                        </div>
+      </div>
+      
+          <!-----------------
+             notice section 
+          ------------------->
+
+          <div class="notice_section">
+            <div class="heading1">
+                    <h1 class="h">notice</h1>
+           </div>
+            <div class="notice_base">              
+            <div class="notice_row">
+              <div class="notice_column" onclick="openModal();currentSlide(1)">
+                <h>NOTICE</h>
+                <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                   text used in laying out print, graphic or web designs.</p>
+              </div>
+              <div class="notice_column" onclick="openModal();currentSlide(2)">
+                  <h>NOTICE</h>
+                  <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                    text used in laying out print, graphic or web designs.</p>
+                </div>
+                <div class="notice_column" onclick="openModal();currentSlide(3)">
+                    <h>NOTICE</h>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                      text used in laying out print, graphic or web designs.</p>
+                  </div>
+                  <div class="notice_column" onclick="openModal();currentSlide(4)">
+                      <h>NOTICE</h>
+                      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                        text used in laying out print, graphic or web designs.</p>
+                    </div>
+              </div>
+              <div class="notice_row">
+                  <div class="notice_column" onclick="openModal();currentSlide(5)">
+                    <h>NOTICE</h>
+                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                      text used in laying out print, graphic or web designs.</p>
+                  </div>
+                  <div class="notice_column" onclick="openModal();currentSlide(6)">
+                      <h>NOTICE</h>
+                      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                        text used in laying out print, graphic or web designs.</p>
+                    </div>
+                    <div class="notice_column" onclick="openModal();currentSlide(7)">
+                        <h>NOTICE</h>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                          text used in laying out print, graphic or web designs.</p>
+                      </div>
+                      <div class="notice_column"onclick="openModal();currentSlide(8)">
+                          <h>NOTICE</h>
+                          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                        </div>
+                  </div>
+                  <div class="notice_row">
+                      <div class="notice_column" onclick="openModal();currentSlide(9)">
+                        <h>NOTICE</h>
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                          text used in laying out print, graphic or web designs.</p>
+                      </div>
+                      <div class="notice_column" onclick="openModal();currentSlide(10)">
+                          <h>NOTICE</h>
+                          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                        </div>
+                      </div>
+            </div>
+             </div> 
+                <div id="myModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <div class="modal-content">
+              
+                  <div class="mySlides">
+                    <div class="numbertext">1 / 10</div>
+                    <div class="notice_full_content">
+                      <p>notice</p>
+                    </div>
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">2 / 10</div>
+                    
+                  </div>
+              
+                  <div class="mySlides">
+                    <div class="numbertext">3 / 10</div>
+                    
+                  </div>
+                  
+                  <div class="mySlides">
+                    <div class="numbertext">4 / 10</div>
+                    
+                  </div>
+                  <div class="mySlides">
+                      <div class="numbertext">5 / 10</div>
+                      <p>NOTICE</p>
+                    </div>
+                
+                    <div class="mySlides">
+                      <div class="numbertext">6 / 10</div>
+                      
+                    </div>
+                
+                    <div class="mySlides">
+                      <div class="numbertext">7 / 10</div>
+                      
+                    </div>
+                    
+                    <div class="mySlides">
+                      <div class="numbertext">8 / 10</div>
+                      
+                    </div>
+                    <div class="mySlides">
+                        <div class="numbertext">9 / 10</div>
+                        
+                      </div>
+                      
+                      <div class="mySlides">
+                        <div class="numbertext">10 / 10</div>
+                        
+                      </div>
+                  
+                  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  </div>
+ 
+                  
+       
+          <!-----------------
+          achievments section 
+          ------------------->
+
+
+       <div class="achievments">
+         <div class="heading1">
+           <h1 class="h">
+           achievments
+         </h1></div>
+         <div class="achievments_base">
+         <div class="square">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="achiev_content">
+            <h2>2016</h2>
+            <div class="link4">
+            <a>Read More</a></div>
+          </div>
+         </div>
+         <div class="square">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="achiev_content">
+            <h2>2017</h2>
+            <div class="link4">
+            <a>Read More</a></div>
+          </div>
+         </div>
+         <div class="square">
+          <span></span>
+          <span></span>
+          <span></span>
+          <div class="achiev_content">
+            <h2>2018</h2>
+            <div class="link4">
+            <a >Read More</a></div>
+          </div>
+         </div>
+        </div>
+       </div>
+       
+       <!-----------------
+          faculty section 
+       ------------------->
+
+       <div class="faculty_section">
+        <div class="heading1">
+          <h1 class="h">
+          faculty
+        </h1></div>
+        <div class="faculty_base">
+          <div class="scroll_left"  onclick="scroll_left()">&#10094;</div>
+          <div class="container_faculty" id="left">
+            <div class="card_faculty">
+              <div class="faculty_card face1">
+                <div class="content">
+                  <div class="profile_faculty"></div>
+                  <h3>Lorem</h3>
+                </div>
+              </div>
+              <div class="faculty_card face2">
+                  <div class="content">
+                    <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                      text used in laying out print, graphic or web designs.</p>
+                    <a href="">Read More</a>
+                  </div>
+                </div>
+            </div>
+            <div class="card_faculty">
+                <div class="faculty_card face1">
+                  <div class="content">
+                    <div class="profile_faculty"></div>
+                    <h3>Lorem</h3>
+                  </div>
+                </div>
+                <div class="faculty_card face2">
+                    <div class="content">
+                      <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                        text used in laying out print, graphic or web designs.</p>
+                      <a href="">Read More</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="card_faculty">
+                  <div class="faculty_card face1">
+                    <div class="content">
+                      <div class="profile_faculty"></div>
+                      <h3>Lorem</h3>
+                    </div>
+                  </div>
+                  <div class="faculty_card face2">
+                      <div class="content">
+                        <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                          text used in laying out print, graphic or web designs.</p>
+                        <a href="">Read More</a>
+                      </div>
+                    </div>
+                </div>
+                <div class="card_faculty">
+                    <div class="faculty_card face1">
+                      <div class="content">
+                        <div class="profile_faculty"></div>
+                        <h3>Lorem</h3>     
+                      </div>
+                    </div>
+                    <div class="faculty_card face2">
+                        <div class="content">
+                          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                          <a href="">Read More</a>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card_faculty">
+                  <div class="faculty_card face1">
+                      <div class="content">
+                        <div class="profile_faculty"></div>
+                        <h3>Lorem</h3>
+                      </div>
+                    </div>
+                    <div class="faculty_card face2">
+                        <div class="content">
+                          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                          <a href="">Read More</a>
+                        </div>
+                      </div>
+                  </div>
+          </div>
+          <div class="scroll_right" onclick="scroll_right()">&#10095;</div>
+        </div>
+        </div>
+       </div>
+       
+          <!-----------------
+            alumini section
+          ------------------->
+
+
+          <div class="alumni_section">
+              <div class="heading1">
+                <h1 class="h">
+                  alumni
+                </h1>
+              </div>
+              <div class="alumni_base">
+                 <div class="scroll_left"  onclick="scroll_left()">&#10094;</div>
+                 <div class="container_alumni" id="left">
+                   <div class="card_alumni">
+                     <div class="alumni_card face1">
+                       <div class="content">
+                        <div class="profile_alu"></div>
+                         <h3>Lorem</h3>
+                       </div>
+                     </div>
+                     <div class="alumni_card face2">
+                         <div class="content">
+                           <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                           <a href="">Read More</a>
+                         </div>
+                       </div>
+                   </div>
+                   <div class="card_alumni">
+                       <div class="alumni_card face1">
+                         <div class="content">
+                          <div class="profile_alu"></div>
+                           <h3>Lorem</h3>
+                         </div>
+                       </div>
+                       <div class="alumni_card face2">
+                           <div class="content">
+                             <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                             <a href="">Read More</a>
+                           </div>
+                         </div>
+                     </div>
+                     <div class="card_alumni">
+                         <div class="alumni_card face1">
+                           <div class="content">
+                            <div class="profile_alu"></div>
+                             <h3>Lorem</h3>
+                           </div>
+                         </div>
+                         <div class="alumni_card face2">
+                             <div class="content">
+                               <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                               <a href="">Read More</a>
+                             </div>
+                           </div>
+                       </div>
+                       <div class="card_alumni">
+                           <div class="alumni_card face1">
+                             <div class="content">
+                              <div class="profile_alu"></div>
+                               <h3>Lorem</h3>
+                             </div>
+                           </div>
+                           <div class="alumni_card face2">
+                               <div class="content">
+                                 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                                 <a href="">Read More</a>
+                               </div>
+                             </div>
+                         </div>
+                         <div class="card_alumni">
+                         <div class="alumni_card face1">
+                             <div class="content">
+                              <div class="profile_alu"></div>
+                               <h3>Lorem</h3>
+                             </div>
+                           </div>
+                           <div class="alumni_card face2">
+                               <div class="content">
+                                 <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy
+                            text used in laying out print, graphic or web designs.</p>
+                                 <a href="">Read More</a>
+                               </div>
+                             </div>
+                         </div>
+                 </div>
+                 <div class="scroll_right" onclick="scroll_right()">&#10095;</div>
+               </div>
+              </div>
+
+          <!-----------------
+            course section
+          ------------------->
+
+      <div class="course_section">
+          <div class="heading1">
+              <h1 class="h">
+                couses offered
+              </h1>
+            </div>
+            <div class="course_base">
+                <div class="course_row">
+                 <div class="course_card">
+                   <h3>M.Sc(Dietetics)</h3>
+                   <p>
+                     <li>Course Details</li>
+                     <li>Download</li>
+                   </p>
+                 </div>
+                 <div class="course_card">
+                    <h3>BHHA</h3>
+                    <p>
+                      <li>Course Details</li>
+                      <li>Download</li>
+                    </p>
+                  </div>
+                  <div class="course_card">
+                      <h3>BBA</h3>
+                      <p>
+                        <li>Course Details</li>
+                        <li>Download</li>
+                      </p>
+                    </div>
+                    <div class="course_card">
+                        <h3>BBA(Global)</h3>
+                        <p>
+                          <li>Course Details</li>
+                          <li>Download</li>
+                        </p>
+                      </div>
+                      <div class="course_card">
+                          <h3>BBA(Hospital M)</h3>
+                          <p>
+                            <li>Course Details</li>
+                            <li>Download</li>
+                          </p>
+                        </div>
+                </div>
+                <div class="course_row">
+                    <div class="course_card">
+                      <h3>BCA</h3>
+                      <p>
+                        <li>Course Details</li>
+                        <li>Download</li>
+                      </p>
+                    </div>
+                    <div class="course_card">
+                       <h3>B. OPTOM</h3>
+                       <p>
+                         <li>Course Details</li>
+                         <li>Download</li>
+                       </p>
+                     </div>
+                     <div class="course_card">
+                         <h3>B.Sc(cyber Security)</h3>
+                         <p>
+                           <li>Course Details</li>
+                           <li>Download</li>
+                         </p>
+                       </div>
+                       <div class="course_card">
+                           <h3>B.Sc(Data Science)</h3>
+                           <p>
+                             <li>Course Details</li>
+                             <li>Download</li>
+                           </p>
+                         </div>
+                   </div>
+            </div>
+      </div>
+
+          <!-----------------
+            campus section
+          ------------------->
+
+          <div class="campus_section">
+              <div class="heading1">
+                  <h1 class="h">
+                    campus life
+                  </h1>
+                </div>
+                <div class="campus_base">
+                  <div class="campus_start">
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                       the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                         but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                          popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                           and more recently with desktop publishing software like Aldus PageMaker including versions
+                            of Lorem Ipsum.
+                    </p>
+                  </div>
+                  <div class="campus_division">
+                    <div class="campus_block">
+                      <div class="campus_inner"> <a href=""> <div class="campus_content"></div></a></div>
+                      <div class="campus_caption"><a href=""></a></div>
+                    </div>
+                    <div class="campus_block">
+                        <div class="campus_inner"> <a href=""> <div class="campus_content"></div></a></div>
+                        <div class="campus_caption"><a href=""></a></div>
+                      </div>
+                      <div class="campus_block">
+                          <div class="campus_inner"> <a href=""> <div class="campus_content"></div></a></div>
+                          <div class="campus_caption"><a href=""></a></div>
+                        </div>
+                  </div>
+                </div>
+          </div>
+
+          <!-----------------
+           placement section
+          ------------------->
+
+          <div class="placement_section">
+              <div class="heading1">
+                  <h1 class="h">
+                    placement
+                  </h1>
+                </div>
+                <div class="placement_before">
+                    <div class="placement_content">
+                      <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                          when an unknown printer took a galley of type and scrambled it to make a type
+                           specimen book. It has survived not only five centuries, but also the leap into
+                            electronic typesetting, remaining essentially unchanged. It was popularised in
+                             the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                              and more recently with desktop publishing software like Aldus PageMaker
+                               including versions of Lorem Ipsum.
+                      </p>
+                      </div>
+                      </div>
+          </div>
+
+          <!-----------------
+            contact section
+          ------------------->
+
+          <div class="contact_section">
+              <div class="heading1">
+                  <h1 class="h">
+                    contact
+                  </h1>
+                </div>
+                <div class="contact_container">
+                <div class="contact_base">
+                  <div class="contact_left">
+                    <h3>opening hours</h3>
+                    <p>
+                      <ul>
+                        <li>Monday-Friday: 9am to 7pm</li>
+                        <li>Saturday: 9am to 6pm</li>
+                        <li>Sunday: Closed</li>
+                      </ul>
+                    </p>
+                    <h3>address</h3>
+                    <p>
+                        HL NO- 1045/1/A, Barasat Barrackpore Road,
+                        
+                        Ward No. 4, Behind Lokenath Mandir
+                        
+                        Kolkata- 700125</p>
+                  </div>
+                  <div class="contact_right">
+                    <h3>phone no</h3>
+                    <p>
+                     <li> <a href="tel:0123456789">0123456789</a></li>
+                     <li> <a href="tel:9876543210">9876543210</a></li>
+                    </p>
+                    <h3>email</h3>
+                    <p><a href="mailto:google@gmail.com">admission@gmail.com</a></p><br>
+                    <a class="contact" onclick="document.getElementById('id01').style.display='block'">contact us</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+          <!-----------------
+            about section
+          ------------------->
+
+          <div class="about_section">
+              <div class="heading1">
+                  <h1 class="h">
+                    about
+                  </h1>
+                </div>
+                <div class="about_before">
+                <div class="about_content">
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and scrambled it to make a type
+                      specimen book. It has survived not only five centuries, but also the leap into
+                       electronic typesetting, remaining essentially unchanged. It was popularised in
+                        the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                         and more recently with desktop publishing software like Aldus PageMaker
+                          including versions of Lorem Ipsum.
+                  </p>
+                </div>
+          </div>
+        </div>
+
+          <!-----------------
+             before footer
+          ------------------->
+
+          <div class="before_footer">
+              
+          </div>
+          
+          <!-----------------
+            footer section 
+          ------------------->
+
+
+       <footer>
+         
+          <!-----------------
+               social bar 
+          ------------------->
+
+
+         <div class="socialmedia">
+           <div class="social_bar">Social Bar</div>
+           <div class="social_icon">
+            <a class="mediaicon" href="https://www.youtube.com"><i class="fab fa-youtube"></i></a>
+            <!--<a class="mediaicon" href="#"><i class="fab fa-twitter-square"></i></a>-->
+            <a class="mediaicon" href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a class="mediaicon" href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        </div>
+              </div>
+
+          <!-----------------
+              informative 
+          ------------------->
+
+
+
+         <div class="middle">
+
+         </div>
+         
+          <!-----------------
+               branding 
+          ------------------->
+
+
+         <div class="container_base">
+        <div class="container">
+            <div class="home1"><a href="#home"><span>n</span>ima<span>s</span></a></div>
+            <div class="guidlines">
+              <a class="link" href="termsofuse.html">Terms of use</a>
+              <a class="link" href="privacy.html">Privacy</a>
+              <a class="link" href="copyright.html">Copyright</a>
+              <a class="link" href="accessibility">Accessibility</a>
+            </div>
+         </div> 
+        <div class="copy">&copy;by Amit Dey</div>
+      </div>
+    </footer>
+
+<!-- jquery file -->
+
+<script src="./js/jquery.js"></script>
+
+    
+    <!--  custom js file -->
+    <script src="js\home .js"></script>
+
+
+
+</body>
+</html>

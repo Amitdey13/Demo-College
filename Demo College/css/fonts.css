@@ -1,0 +1,12 @@
+
+/*@font  face*/
+
+@font-face{
+    font-family: "Ubuntu";
+     src:'./fonts/Ubuntu/Ubuntu-Regular.ttf' ;
+
+
+    font-family: "heading";
+    src: './fonts/heading/Calistoga-Regular.ttf';
+
+}
