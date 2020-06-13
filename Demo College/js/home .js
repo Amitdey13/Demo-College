@@ -2,6 +2,7 @@
     nav section
  *****************/
 
+
 let nav1 = document.getElementById("nav1");
 let nav2 = document.getElementsByClassName("nav2");
 
@@ -28,11 +29,11 @@ function home(){
 }
  
 function explore(){
- window.scrollTo(0,765);
+  window.scrollTo(0,665);
 }
 
 function events(){
- window.scrollTo(0,635);
+ window.scrollTo(0,665);
 }
 
 function notice(){
